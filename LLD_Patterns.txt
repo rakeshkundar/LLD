@@ -1,0 +1,24 @@
+1) Strategy pattern
+2) Observer Pattern
+3) Decorator Pattern
+4) Factory Pattern
+5) Abstract Factory Pattern
+6) Chain of Responsibility Pattern
+7) Proxy Pattern
+8) Null Object Pattern
+9) State Pattern
+10) Composite Pattern
+11) Adapter Pattern
+12) Singleton Pattern
+13) Builder Pattern
+14) Prototype Pattern
+15) Bridge Pattern
+16) Facade Pattern
+17) Flyweight Pattern
+18) Command Pattern
+19) Interpreter Pattern
+20) Iterator Pattern
+21) Mediator Pattern
+22) Memento Pattern
+23) Template Method Pattern
+24) Visitor Pattern
