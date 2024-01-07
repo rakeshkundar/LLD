@@ -22,8 +22,9 @@ class Dispense(State):
     def select_product(self, item_id: int):
         raise Exception('Invalid Operation')
 
-    def dispense_product(self, machine: VendingMachine):
-        machine.change_machine_state(Dispense())
+    def dispense_product(self, machine: VendingMachine, itemshelf: ItemShelf):
+        print(f"Item shelf : {itemshelf} is Dispensed")
+        machine.change_state(Idle())
 
     def return_change():
         raise Exception('Invalid Operation')

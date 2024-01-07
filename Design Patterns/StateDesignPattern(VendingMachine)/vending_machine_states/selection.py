@@ -31,6 +31,7 @@ class Selection(State):
                 self.refund_full_amount(machine)
             elif(money_collected > price):
                 self.return_change(money_collected - price)
+                self.dispense_product(machine, item_shelf)
 
         except Exception as e:
             print(e)
